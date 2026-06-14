@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Midnight Pro theme tokens */
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #ffffff;
+  --color-primary: #7c3aed;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: rgba(255, 255, 255, 0.08);
+  --color-secondary-foreground: #ffffff;
+  --color-muted: rgba(255, 255, 255, 0.05);
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-input: rgba(255, 255, 255, 0.08);
+  --color-destructive: #ef4444;
+  --color-ring: rgba(139, 92, 246, 0.5);
+  --radius-md: 0.5rem;
+}
+
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}
